@@ -12,13 +12,32 @@ entity Mux4 is
 end Mux4;
 
 architecture Behavioral of Mux4 is
-component Mux2
+component Inv
+   Port ( a : in  STD_LOGIC;
+          nota : out  STD_LOGIC);
+end component;
+
+component And2
    Port ( a : in  STD_LOGIC;
           b : in  STD_LOGIC;
-          s : in  STD_LOGIC;
           z : out  STD_LOGIC);
 end component;
+
+component Or2
+   Port ( a : in  STD_LOGIC;
+          b : in  STD_LOGIC;
+          z : out  STD_LOGIC);
+end component;
+
+signal nots, anots, bs, a1nots, b1s: STD_LOGIC;
 begin
-   M1: Mux2 port map (a, b, s, z);
-   M2: Mux2 port map (a1, b1, s, z1);
+   M1: Inv port map (s, nots);
+
+   M2: And2 port map (a, nots, anots);
+   M3: And2 port map (b, s, bs);
+   M4: Or2 port map (anots, bs, z);
+
+   M5: And2 port map (a1, nots, a1nots);
+   M6: And2 port map (b1, s, b1s);
+   M7: Or2 port map (a1nots, b1s, z1);
 end Behavioral;
