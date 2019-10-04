@@ -22,118 +22,72 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="StructuralVhdl.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="And5.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="And5.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="And5.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="And5.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="And5.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="And5.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="And5.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="And5.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="And5_envsettings.html"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="And5_summary.html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="And5_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CombinationalTests_stx_beh.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Dmx1x4.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Dmx1x4.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Dmx1x4.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Dmx1x4.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Dmx1x4.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Dmx1x4.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Dmx1x4.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Dmx1x4.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Dmx1x4.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Dmx1x4.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Dmx1x4_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Dmx1x4_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Dmx1x4_ngdbuild.xrpt"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Dmx1x4_summary.html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Dmx1x4_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Add1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Add1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Add1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Add1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Add1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Add1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Add1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Add1.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Add1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Add1_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Add1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Add2.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Add2.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Add2.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Add2.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Add2.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Add2.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Add2.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Add2.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Add2_xst.xrpt"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Inv_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
-    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1570218909" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1570218909">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3985881147830433592" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220137" xil_pn:in_ck="7833574932704865006" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570220137">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1570218909" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1570218909">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1570218909" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2623569966022418569" xil_pn:start_ts="1570218909">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1570218909" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-845247121674069617" xil_pn:start_ts="1570218909">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-    </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2912929363517244727" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1669580721002470336" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4763569687287768881" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6259833004856039386" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-638977506491638933" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570222635" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7581221125661272906" xil_pn:start_ts="1570222635">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570220747" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4432372539758039493" xil_pn:start_ts="1570220747">
+    <transform xil_pn:end_ts="1570223238" xil_pn:in_ck="-2559536039883318285" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-2907388049714471609" xil_pn:start_ts="1570223230">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1570221281" xil_pn:in_ck="2741391948108291875" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-266856040094674568" xil_pn:start_ts="1570221273">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="And5.lso"/>
-      <outfile xil_pn:name="And5.ngc"/>
-      <outfile xil_pn:name="And5.ngr"/>
-      <outfile xil_pn:name="And5.prj"/>
-      <outfile xil_pn:name="And5.stx"/>
-      <outfile xil_pn:name="And5.syr"/>
-      <outfile xil_pn:name="And5.xst"/>
-      <outfile xil_pn:name="And5_xst.xrpt"/>
+      <outfile xil_pn:name="Add1.ngr"/>
+      <outfile xil_pn:name="Add2.lso"/>
+      <outfile xil_pn:name="Add2.ngc"/>
+      <outfile xil_pn:name="Add2.ngr"/>
+      <outfile xil_pn:name="Add2.prj"/>
+      <outfile xil_pn:name="Add2.stx"/>
+      <outfile xil_pn:name="Add2.syr"/>
+      <outfile xil_pn:name="Add2.xst"/>
+      <outfile xil_pn:name="Add2_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
-    </transform>
-    <transform xil_pn:end_ts="1570219653" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6914360358697467938" xil_pn:start_ts="1570219653">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
   </transforms>
 
