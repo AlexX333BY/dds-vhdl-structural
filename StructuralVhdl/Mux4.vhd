@@ -11,7 +11,7 @@ entity Mux4 is
            z1 : out  STD_LOGIC);
 end Mux4;
 
-architecture Behavioral of Mux4 is
+architecture Structural of Mux4 is
 component Inv
    Port ( a : in  STD_LOGIC;
           nota : out  STD_LOGIC);
@@ -40,4 +40,4 @@ begin
    M5: And2 port map (a1, nots, a1nots);
    M6: And2 port map (b1, s, b1s);
    M7: Or2 port map (a1nots, b1s, z1);
-end Behavioral;
+end Structural;

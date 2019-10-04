@@ -8,7 +8,7 @@ entity Mux2 is
            z : out  STD_LOGIC);
 end Mux2;
 
-architecture Behavioral of Mux2 is
+architecture Structural of Mux2 is
 component Inv
    Port ( a : in  STD_LOGIC;
           nota : out  STD_LOGIC);
@@ -32,4 +32,9 @@ begin
    M2: And2 port map (a, nots, anots);
    M3: And2 port map (b, s, bs);
    M4: Or2 port map (anots, bs, z);
+end Structural;
+
+architecture Behavioral of Mux2 is
+begin
+   z <= a when s='0' else b;
 end Behavioral;
