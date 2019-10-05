@@ -23,7 +23,7 @@ ARCHITECTURE behavior OF CombinationalTests IS
    signal Z : std_logic := '0';
 
  	--Outputs
-   signal G_s, G_b, err : std_logic;
+   signal G_s, G_b, error : std_logic;
  
    constant clock_period : time := 10 ns;
    constant w_clock_multiplier : integer := 2 ** 0;
@@ -48,7 +48,7 @@ BEGIN
           G => G_s
         );
 
-   err <= G_b xor G_s;
+   error <= G_b xor G_s;
 
    w_clock_process :process
    begin
