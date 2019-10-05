@@ -41,10 +41,12 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Add2.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Add2.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Add2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Add2Tests_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Add2Tests_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Add2Tests_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Add2Tests_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Add2_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="And5Tests_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="And5Tests_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="And5Tests_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CombinationalTests_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Dmx1x4Tests_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Inv_guide.ncd" xil_pn:origination="imported"/>
@@ -65,11 +67,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570271315" xil_pn:in_ck="-2141286896205659783" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570271315">
+    <transform xil_pn:end_ts="1570273008" xil_pn:in_ck="8391467224448049911" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1570273008">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Add1.vhd"/>
       <outfile xil_pn:name="Add2.vhd"/>
+      <outfile xil_pn:name="Add2Tests.vhd"/>
       <outfile xil_pn:name="And2.vhd"/>
       <outfile xil_pn:name="And3.vhd"/>
       <outfile xil_pn:name="And5.vhd"/>
@@ -85,11 +88,11 @@
       <outfile xil_pn:name="Or2.vhd"/>
       <outfile xil_pn:name="Xor2.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1570271196" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4564369790423395439" xil_pn:start_ts="1570271196">
+    <transform xil_pn:end_ts="1570271896" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9197419555065530972" xil_pn:start_ts="1570271896">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570271196" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6817006826536960751" xil_pn:start_ts="1570271196">
+    <transform xil_pn:end_ts="1570271896" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2458709097703479682" xil_pn:start_ts="1570271896">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -97,11 +100,12 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1570271315" xil_pn:in_ck="-2141286896205659783" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1570271315">
+    <transform xil_pn:end_ts="1570273008" xil_pn:in_ck="8391467224448049911" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1570273008">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Add1.vhd"/>
       <outfile xil_pn:name="Add2.vhd"/>
+      <outfile xil_pn:name="Add2Tests.vhd"/>
       <outfile xil_pn:name="And2.vhd"/>
       <outfile xil_pn:name="And3.vhd"/>
       <outfile xil_pn:name="And5.vhd"/>
@@ -117,22 +121,22 @@
       <outfile xil_pn:name="Or2.vhd"/>
       <outfile xil_pn:name="Xor2.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1570271316" xil_pn:in_ck="-2141286896205659783" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4138738900193583950" xil_pn:start_ts="1570271315">
+    <transform xil_pn:end_ts="1570273009" xil_pn:in_ck="8391467224448049911" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="587940934438201208" xil_pn:start_ts="1570273008">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="And5Tests_beh.prj"/>
-      <outfile xil_pn:name="And5Tests_isim_beh.exe"/>
+      <outfile xil_pn:name="Add2Tests_beh.prj"/>
+      <outfile xil_pn:name="Add2Tests_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1570271362" xil_pn:in_ck="-3159984228280375966" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4302974134976233665" xil_pn:start_ts="1570271362">
+    <transform xil_pn:end_ts="1570273009" xil_pn:in_ck="3766702244928444479" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9141683244232450011" xil_pn:start_ts="1570273009">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="And5Tests_isim_beh.wdb"/>
+      <outfile xil_pn:name="Add2Tests_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -163,7 +167,9 @@
     <transform xil_pn:end_ts="1570223238" xil_pn:in_ck="-2559536039883318285" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-2907388049714471609" xil_pn:start_ts="1570223230">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Add1.ngr"/>
       <outfile xil_pn:name="Add2.lso"/>
