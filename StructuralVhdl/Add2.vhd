@@ -37,6 +37,6 @@ begin
    c0 <= a(0) and b(0);
    z(0) <= z0;
    
-   z(1) <= a(1) xor b(1) xor z0;
+   z(1) <= a(1) xor b(1) xor c0;
    c <= (a(1) and b(1)) or ((a(1) xor b(1)) and c0);
 end Behavioral;
