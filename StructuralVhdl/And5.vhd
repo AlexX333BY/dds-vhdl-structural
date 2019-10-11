@@ -18,11 +18,16 @@ component And2
           z : out  STD_LOGIC);
 end component;
 
+component Buf
+   Port ( a : in  STD_LOGIC;
+          z : out  STD_LOGIC);
+end component;
+
 signal gen: std_logic_vector(3 downto 0);
 begin
    GEN_0: And2 port map (a(0), a(1), gen(0));
    GEN_LOOP: for i in 1 to 3 generate
       GEN_I: And2 port map (gen(i-1), a(i+1), gen(i));
    end generate;
-   z <= gen(3);
+   RES: Buf port map (gen(3), z);
 end Structural;
