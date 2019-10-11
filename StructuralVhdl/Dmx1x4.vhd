@@ -2,21 +2,21 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Dmx1x4 is
-    Port ( a : in  STD_LOGIC;
-           b : in  STD_LOGIC;
-           s : in  STD_LOGIC;
-           a1 : out  STD_LOGIC;
-           b1 : out  STD_LOGIC;
-           a2 : out  STD_LOGIC;
-           b2 : out  STD_LOGIC);
+    Port ( a0 : in  STD_LOGIC;
+           a1 : in  STD_LOGIC;
+           d : in  STD_LOGIC;
+           f0 : out  STD_LOGIC;
+           f1 : out  STD_LOGIC;
+           f2 : out  STD_LOGIC;
+           f3 : out  STD_LOGIC);
 end Dmx1x4;
 
 architecture Behavioral of Dmx1x4 is
 begin
-   a1 <= a and not s;
-   b1 <= b and not s;
-   a2 <= a and s;
-   b2 <= b and s;
+   f0 <= d and not a0 and not a1;
+   f1 <= d and a0 and not a1;
+   f2 <= d and not a0 and a1;
+   f3 <= d and a0 and a1;
 end Behavioral;
 
 architecture Structural of Dmx1x4 is
@@ -25,17 +25,19 @@ component Inv
           nota : out  STD_LOGIC);
 end component;
 
-component And2
+component And3
    Port ( a : in  STD_LOGIC;
           b : in  STD_LOGIC;
+          c : in  STD_LOGIC;
           z : out  STD_LOGIC);
 end component;
 
-signal nots: STD_LOGIC;
+signal nota0, nota1: STD_LOGIC;
 begin
-   D1: Inv port map (s, nots);
-   D2: And2 port map (a, nots, a1);
-   D3: And2 port map (b, nots, b1);
-   D4: And2 port map (a, s, a2);
-   D5: And2 port map (b, s, b2);
+   D0: Inv port map (a0, nota0);
+   D1: Inv port map (a1, nota1);
+   D2: And3 port map (d, nota0, nota1, f0);
+   D3: And3 port map (d, a0, nota1, f1);
+   D4: And3 port map (d, nota0, a1, f2);
+   D5: And3 port map (d, a0, a1, f3);
 end Structural;
